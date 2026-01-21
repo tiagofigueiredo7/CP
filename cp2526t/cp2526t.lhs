@@ -941,7 +941,7 @@ den x (n+1) = (2n+5)(2n+4) * den x n
 \end{spec}
 
 Contudo, esta definição recursiva do denominador ainda depende de |n|, o que não é desejável,
-por isso, é necessário simplificá-la até não dependa de |n|. Para isso, faça-se
+por isso é necessário simplificá-la até não dependa de |n|. Para isso, faça-se
 
 \begin{spec}
 j x n = (2n+5)*(2n+4)
@@ -964,7 +964,7 @@ j x (n+1) = (8*n + 22) + j x n
 \end{spec}
 
 Mais uma vez, esta definição recursiva de |j| ainda depende de |n|, o que não é desejável,
-por isso, voltamos a repetir o processo até não depender de |n|. Para isso, faça-se
+por isso voltamos a repetir o processo até não depender de |n|. Para isso, faça-se
 
 \begin{spec}
 m x n = 8*n + 22
@@ -1597,31 +1597,6 @@ Pode-se calcular as probabilidades dos casos pedidos:
 \end{itemize}
 
 Logo, por comparação dos resultados obtidos a partir do interpretador e das soluções calculadas, pode-se concluir que as funções usadas funcionam de acordo com o desejado.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 %----------------- Índice remissivo (exige makeindex) -------------------------%
